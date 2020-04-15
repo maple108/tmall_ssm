@@ -158,12 +158,6 @@ public class Order {
         this.orderItems = orderItems;
     }
     
-    
-    public static void main(String args[]){
-        Order o  = new Order();
-        o.setStatus(OrderService.delete);
-        System.out.println(o.getStatusDesc());
-    }
     public String getStatusDesc(){
         String desc ="未知";
         switch(status){
