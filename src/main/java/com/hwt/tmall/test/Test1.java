@@ -14,11 +14,5 @@ public class Test1 {
             file.getParentFile().mkdirs();
     }
 
-    @Test
-    public void run2() {
-        TestA a = new TestA1();
-        a.a();
-
-
-    }
+ 
 }
